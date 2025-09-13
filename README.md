@@ -94,3 +94,53 @@ https://public.tableau.com/app/profile/jeremy.koome/viz/Subject_17577851037370/D
 https://public.tableau.com/app/profile/jeremy.koome/viz/date_17577853474270/Dashboard3
 https://public.tableau.com/app/profile/jeremy.koome/viz/officer_17577854117290/Dashboard4
 https://public.tableau.com/app/profile/jeremy.koome/viz/arrestflag/Sheet18
+
+# Repository Structure
+## Branch: Main
+```│   MAIN NOTEBOOK.ipynb
+│   README.md
+│   terry_stops_analysis.ipynb.ipynb
+│   Untitled.ipynb
+│
+├───.ipynb_checkpoints
+│       individual notebooks-checkpoint
+│
+└───notebook
+        ipynb
+        Phase 3 Project_Ivy.ipynb
+        terry stops.ipynb
+        Terry_Stops_20250908.csv
+        Terry_stops_prediction.ipynb
+```
+## Branch: Hcton75-patch-1
+```
+individual notebooks
+    README.md
+```
+
+## Branch: Hcton-patch-2
+```
+ Images
+    individual notebooks
+    README.md
+    Screenshot (91).png
+    Screenshot (92).png
+    Screenshot (94).png
+    Screenshot (95).png
+    Screenshot (96).png
+    Screenshot (97).png
+    Screenshot (98).png
+    terry stops.ipynb
+```
+
+## Branch: royals-notebook
+```
+
+│   Hcton75-patch-1_structure.txt
+│   README.md
+│
+└───notebook
+        ipynb
+        terry stops.ipynb
+        Terry_stops_prediction_Royal.ipynb
+```
