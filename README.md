@@ -135,8 +135,6 @@ individual notebooks
 
 ## Branch: royals-notebook
 ```
-
-│   Hcton75-patch-1_structure.txt
 │   README.md
 │
 └───notebook
