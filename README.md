@@ -61,6 +61,13 @@ Data preprocessing is also done which includes, changing categorical variables t
 ## 4. Data Analysis
 Exploratory Data Analysis(EDA) was done after preparation. 
 
+An example of univariate analysis:<br>\
+
+**Distribution of Officer's Age**
+![Analysis 2](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(95).png)
+
+An example of Bivariate Analysis:<br>
+
 **Arrest Vs. Subject Perceived Race**
 ![Analysis 1](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(91).png)
 ## 5. Modelling
