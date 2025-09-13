@@ -1,5 +1,58 @@
-# Phase 3 Project: Areest Prediction
+# Phase 3 Project: Terry Stop Arrest Prediction
 ## Business Understanding
 A Terry stop is a police procedure that permits law enforcement officers to briefly detain an individual based on reasonable suspicion of criminal activity. Terry Stops are controversial because they give police a wider scope of authority or freedom to make decisions which may lead to wrongful arrests. If most stops don’t lead to arrests, it raises questions about whether they are fair or effective, a concern to policy makers and civil rights organizations.
+
 The main objective of this project is to develop a classification model that predicts whether a Terry Stop conducted by the Seattle Police Department will result in an arrest or not.
 ## Data Understanding
+The dataset to be used in this project is from [Seattle Government](https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8/about_data). Each row is a unique record of a Terry stop, as reported by the officer conducting the stop.
+
+### Columns in the dataset
+1. `Subject Age Group` - Subject Age Group (10 year increments) as reported by the officer.
+
+2. `Subject ID` - Key(Unique Identifier)
+
+3. `GO / SC Num` - General Offense or Street Check number, relating the Terry Stop to the parent report. This field may have a one to many relationship in the data.
+
+4. `Terry Stop ID` - Key identifying unique Terry Stop reports.
+
+5. `Stop Resolution` - Resolution of the stop as reported by the officer.
+
+6. `Weapon Type` - Type of weapon, if any, identified during a search or frisk of the subject. Indicates "None" if no weapons was found.
+
+7. `Officer ID` - Key identifying unique officers in the dataset.
+
+8. `Officer YOB` - Year of birth, as reported by the officer.
+
+9. `Officer Gender` - Gender of the officer, as reported by the officer.
+
+10. `Officer Race` - Race of the officer, as reported by the officer.
+
+11. `Subject Perceived Race` - Perceived race of the subject, as reported by the officer.
+
+12. `Subject Perceived Gender` - Perceived gender of the subject, as reported by the officer.
+
+13. `Reported Date` - Date the report was filed in the Records Management System (RMS). Not necessarily the date the stop occurred but generally within 1 day.
+
+14. `Reported Time` - Time the stop was reported in the Records Management System (RMS). Not the time the stop occurred but generally within 10 hours.
+
+15. `Initial Call Type` - Initial classification of the call as assigned by 911.
+
+16. `Final Call Type` - Final classification of the call as assigned by the primary officer closing the event.
+
+17. `Call Type` - How the call was received by the communication center.
+
+18. `Officer Squad` - Functional squad assignment (not budget) of the officer as reported by the Data Analytics Platform (DAP).
+
+19. `Arrest Flag` - Indicator of whether a "physical arrest" was made, of the subject, during the Terry Stop. Does not necessarily reflect a report of an arrest in the Records Management System (RMS).
+
+20. `Frisk Flag` - Indicator of whether a "frisk" was conducted, by the officer, of the subject, during the Terry Stop.
+
+21. `Precinct` - Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+
+22. `Sector` - Sector of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+  
+23. `Beat` - Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
+
+24. A total of 64.8K rows and 23 columns
+
+## Data Preparation
