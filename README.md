@@ -86,3 +86,11 @@ Some of the recommendations include:
    Review frisk procedures to ensure they are conducted appropriately and consistently.
 - **Precinct-level Analysis**: Investigate why arrest rates vary by precinct to identify best practices and ensure consistency across districts.
 - **Ongoing Monitoring**: Implement regular review of these patterns to identify changes over time and address any emerging issues.
+
+
+## Tableau Link
+https://public.tableau.com/app/profile/jeremy.koome/viz/Book1_17567692706370/Dashboard1
+https://public.tableau.com/app/profile/jeremy.koome/viz/Subject_17577851037370/Dashboard2
+https://public.tableau.com/app/profile/jeremy.koome/viz/date_17577853474270/Dashboard3
+https://public.tableau.com/app/profile/jeremy.koome/viz/officer_17577854117290/Dashboard4
+https://public.tableau.com/app/profile/jeremy.koome/viz/arrestflag/Sheet18
