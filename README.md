@@ -62,3 +62,5 @@ Data preprocessing is also done which includes, changing categorical variables t
 Exploratory Data Analysis(EDA) was done after preparation. 
 ## Modelling
 Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights.
+## Evaluation
+Metrics used were precision, recall, f1-score and ROC curve. For each model, the metrics were different.
