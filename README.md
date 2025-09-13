@@ -53,6 +53,12 @@ The dataset to be used in this project is from [Seattle Government](https://data
   
 23. `Beat` - Beat of the address associated with the underlying Computer Aided Dispatch (CAD) event. Not necessarily where the Terry Stop occurred.
 
-24. A total of 64.8K rows and 23 columns
+- A total of 64.8K rows and 23 columns
 
 ## Data Preparation
+This is where data cleaning is done. There were no duplicated, some missing values in some columns such as `Officer Squad` which were mostly filled with Unknown, outliers in `Officer Age` which were removed. There were some categories whose names were changed for better analysis and understanding, example of a column is `Weapon Type`.
+Data preprocessing is also done which includes, changing categorical variables to numerical using `OneHotEncoder` and scaling of the numeric values using `MinMaxScaler`.
+## Data Analysis
+Exploratory Data Analysis(EDA) was done after preparation. 
+## Modelling
+Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights.
