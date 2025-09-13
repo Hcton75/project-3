@@ -74,7 +74,12 @@ An example of Bivariate Analysis:<br>
 Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights. The target variable is `Arrest Flag`.
 ## 6. Evaluation
 Metrics used were precision, recall, f1-score, ROC curve, confusion among others. For each model, the metrics were different. 
+
+A good example that shows difference in models used is the below image of a confusion matrix:
+![Analysis 3](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(98).png)
 ## 7. Recommendations
+Some of the recommendations include:
+
 - **Weapon Presence is Key**: The type of weapon involved is the strongest predictor of arrest outcomes. 
    Officers should receive continued training on proper assessment and response to different weapon types.
 - **Frisk Procedures**: The data shows that frisks are associated with different arrest rates. 
