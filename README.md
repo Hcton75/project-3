@@ -61,7 +61,7 @@ Data preprocessing is also done which includes, changing categorical variables t
 ## 4. Data Analysis
 Exploratory Data Analysis(EDA) was done after preparation. 
 
-An example of univariate analysis:<br>\
+An example of univariate analysis:<br>
 
 **Distribution of Officer's Age**
 ![Analysis 2](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(95).png)
@@ -71,6 +71,13 @@ An example of Bivariate Analysis:<br>
 **Arrest Vs. Subject Perceived Race**
 ![Analysis 1](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(91).png)
 ## 5. Modelling
-Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights.
+Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights. The target variable is `Arrest Flag`.
 ## 6. Evaluation
-Metrics used were precision, recall, f1-score and ROC curve. For each model, the metrics were different.
+Metrics used were precision, recall, f1-score, ROC curve, confusion among others. For each model, the metrics were different. 
+## 7. Recommendations
+- **Weapon Presence is Key**: The type of weapon involved is the strongest predictor of arrest outcomes. 
+   Officers should receive continued training on proper assessment and response to different weapon types.
+- **Frisk Procedures**: The data shows that frisks are associated with different arrest rates. 
+   Review frisk procedures to ensure they are conducted appropriately and consistently.
+- **Precinct-level Analysis**: Investigate why arrest rates vary by precinct to identify best practices and ensure consistency across districts.
+- **Ongoing Monitoring**: Implement regular review of these patterns to identify changes over time and address any emerging issues.
