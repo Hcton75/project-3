@@ -1,9 +1,9 @@
 # Phase 3 Project: Terry Stop Arrest Prediction
-## Business Understanding
+## 1. Business Understanding
 A Terry stop is a police procedure that permits law enforcement officers to briefly detain an individual based on reasonable suspicion of criminal activity. Terry Stops are controversial because they give police a wider scope of authority or freedom to make decisions which may lead to wrongful arrests. If most stops don’t lead to arrests, it raises questions about whether they are fair or effective, a concern to policy makers and civil rights organizations.
 
 The main objective of this project is to develop a classification model that predicts whether a Terry Stop conducted by the Seattle Police Department will result in an arrest or not.
-## Data Understanding
+## 2. Data Understanding
 The dataset to be used in this project is from [Seattle Government](https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8/about_data). Each row is a unique record of a Terry stop, as reported by the officer conducting the stop.
 
 ### Columns in the dataset
@@ -55,12 +55,15 @@ The dataset to be used in this project is from [Seattle Government](https://data
 
 - A total of 64.8K rows and 23 columns
 
-## Data Preparation
+## 3. Data Preparation
 This is where data cleaning is done. There were no duplicated, some missing values in some columns such as `Officer Squad` which were mostly filled with Unknown, outliers in `Officer Age` which were removed. There were some categories whose names were changed for better analysis and understanding, example of a column is `Weapon Type`.
 Data preprocessing is also done which includes, changing categorical variables to numerical using `OneHotEncoder` and scaling of the numeric values using `MinMaxScaler`.
-## Data Analysis
+## 4. Data Analysis
 Exploratory Data Analysis(EDA) was done after preparation. 
-## Modelling
+
+**Arrest Vs. Subject Perceived Race**
+![Analysis 1](https://github.com/Hcton75/project-3/blob/Hcton75-patch-2/Screenshot%20(91).png)
+## 5. Modelling
 Data was fitted to three models, Logistic Regression model, Decision Tree model, Random Forest model. Each model had different results after evaluation. Class imbalance is addressed using SMOTE and class weights.
-## Evaluation
+## 6. Evaluation
 Metrics used were precision, recall, f1-score and ROC curve. For each model, the metrics were different.
